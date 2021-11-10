@@ -1,0 +1,21 @@
+{
+    "svm":{
+        "model":"sklearn.svm.SVC()",
+        "param":{
+            "C":[1,10,20],
+            "kernel":["rb","linear"]
+        }
+    },
+    "random_forest":{
+        "model":"sklearn.ensemble.RandomForestClassifier()",
+        "param":{
+            "n_estimators":[1,5,10]
+        }
+    },
+    "logistic_regression":{
+        "model":"sklearn.linear_model.LogisticRegression()",
+        "param":{
+            "C":[1,5,10]
+        }
+    }
+}
